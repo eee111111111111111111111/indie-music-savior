@@ -50,9 +50,9 @@ export async function askJSON({system,user,schema,name,settings={}}){
     const response=await fetch(config.endpoint,{
       method:'POST',signal:controller.signal,
       headers:{'Content-Type':'application/json','Authorization':`Bearer ${config.key}`},
-      body:JSON.stringify({model:config.model,store:false,max_output_tokens:config.provider==='groq'?1800:850,
-        input:[{role:'system',content:system},{role:'user',content:user}],
-        text:{format:{type:'json_schema',name,strict:true,schema}}})
+      body:JSON.stringify({model:config.model,...(config.provider === 'openai' ? {store:false} : {}),max_output_tokens:config.provider==='groq'?1800:850,
+      input:[{role:'system',content:system},{role:'user',content:user}],
+      text:{format:{type:'json_schema',name,strict:true,schema}}})
     });
     if(!response.ok){
       // 只回傳安全的錯誤資訊，不把供應商的原始回應和金鑰送給使用者。
