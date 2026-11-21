@@ -40,3 +40,35 @@ test('true LLM flow with mocked OpenAI responses',async()=>{
     assert.equal(data.mode,'ai');assert.ok(SONGS.some(s=>s.id===data.song.id));assert.ok(data.imagePrompt.includes('square'));
   }finally{globalThis.fetch=old;}
 });
+
+test('Groq free-tier provider works with the original two-step JSON schema pipeline',async()=>{
+  const old=globalThis.fetch;let count=0;
+  globalThis.fetch=async(url,opt)=>{
+    assert.equal(url,'https://api.groq.com/openai/v1/responses');
+    assert.equal(opt.headers.Authorization,'Bearer fake-groq-key');
+    const input=JSON.parse(opt.body);
+    assert.equal(input.model,'openai/gpt-oss-20b');
+    assert.equal(input.text.format.type,'json_schema');
+    assert.equal(input.text.format.strict,true);
+    count++;
+    const generated=count===1?{moods:['relaxed'],genres:['dream pop'],scenes:['coffee'],instruments:[],energy:'low',explanation:'放鬆咖啡時光。'}:
+      {review:'今天的生活慢一點也沒關係，留給旋律一些空間。',reason:'夢幻流行與咖啡的氛圍相合。',imagePrompt:'Square original indie vinyl album artwork, soft brown tones, film grain, no text, no existing album cover'};
+    return Response.json({status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(generated)}]}]});
+  };
+  try {
+    const env=makeEnv({AI_PROVIDER:'groq',GROQ_API_KEY:'fake-groq-key',OPENAI_API_KEY:''});
+    const status=await (await worker.fetch(new Request(base+'/status',{headers:{origin}}),env)).json();
+    assert.equal(status.provider,'groq');assert.equal(status.configured,true);assert.equal(status.model,'openai/gpt-oss-20b');
+    assert.ok(!JSON.stringify(status).includes('fake-groq-key'));
+    const result=await worker.fetch(req(),env);const data=await result.json();
+    assert.equal(result.status,200);assert.equal(data.mode,'ai');assert.equal(count,2);
+    assert.ok(data.imagePrompt.startsWith('Square'));
+  } finally {globalThis.fetch=old;}
+});
+test('explicit Groq choice never falls back to paid OpenAI when Groq is missing',async()=>{
+  const env=makeEnv({AI_PROVIDER:'groq',GROQ_API_KEY:''});
+  const status=await (await worker.fetch(new Request(base+'/status',{headers:{origin}}),env)).json();
+  assert.equal(status.configured,false);assert.equal(status.provider,'groq');
+  const result=await worker.fetch(req(),env);assert.equal(result.status,503);
+  assert.match((await result.json()).error,/GROQ_API_KEY/);
+});
