@@ -1,5 +1,5 @@
 import { SONGS } from '../shared/catalog.mjs';
-import { analyzeEmotion, writeReviewAndPrompt, AIError } from '../shared/openai.mjs';
+import { analyzeEmotion, writeReviewAndPrompt, AIError, providerConfig } from '../shared/openai.mjs';
 import { cleanPreferences, selectSong } from '../shared/recommender.mjs';
 
 function reply(payload, status=200, headers={}) {
@@ -22,13 +22,20 @@ export default {
       if (!origin || origin !== env.ALLOWED_ORIGIN) return reply({error:'Origin 不允許。'},403);
       return new Response(null,{status:204,headers:{...headers,'Access-Control-Max-Age':'600'}});
     }
-    if (path === '/status' && request.method === 'GET')
-      return reply({ok:true,configured:!!(env.OPENAI_API_KEY && env.ALLOWED_ORIGIN),model:env.OPENAI_MODEL||'gpt-4.1-mini'},200,headers);
+    if (path === '/status' && request.method === 'GET') {
+      try {
+        const config=providerConfig(env);
+        return reply({ok:true,configured:!!(config.key && env.ALLOWED_ORIGIN),provider:config.provider,model:config.model},200,headers);
+      } catch(e) {return reply({ok:false,error:e.message},503,headers);}
+    }
     if (path !== '/recommend') return reply({error:'找不到 API 路徑。'},404,headers);
     if (request.method !== 'POST') return reply({error:'請使用 POST。'},405,headers);
     if (!origin || !env.ALLOWED_ORIGIN || origin !== env.ALLOWED_ORIGIN)
       return reply({error:'禁止來自其他網站的請求。'},403,headers);
-    if (!env.OPENAI_API_KEY) return reply({error:'尚未設定 OPENAI_API_KEY。'},503,headers);
+    let config;
+    try { config=providerConfig(env); }
+    catch(e) { return reply({error:e.message},503,headers); }
+    if (!config.key) return reply({error:`尚未設定 ${config.keyName}。`},503,headers);
     if (!env.REQUEST_LIMITER) return reply({error:'未啟用伺服器端請求限制，暫停 AI 服務。'},503,headers);
     if (!request.headers.get('content-type')?.startsWith('application/json'))
       return reply({error:'請以 JSON 格式傳入資料。'},415,headers);
