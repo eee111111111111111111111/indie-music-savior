@@ -1,0 +1,12 @@
+{
+  "name": "indie-music-savior-github-full",
+  "version": "2.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.60.0"
+  }
+}
