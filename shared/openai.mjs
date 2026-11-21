@@ -1,4 +1,4 @@
-/** OpenAI Responses API，純伺服器端呼叫。絕不可在瀏覽器暴露 OPENAI_API_KEY。 */
+/** 可切換 OpenAI / Groq Responses API，純伺服器端呼叫。絕不可在瀏覽器暴露任何 API Key。 */
 export class AIError extends Error {constructor(message,status=502){super(message);this.status=status;}}
 const analysisSchema={
   type:'object',additionalProperties:false,
@@ -18,6 +18,23 @@ const resultSchema={
     review:{type:'string'},reason:{type:'string'},imagePrompt:{type:'string'}
   },required:['review','reason','imagePrompt']
 };
+/** 只允許明確選擇供應商，絕不在 Groq 用量耗盡時自動改回付費 OpenAI。 */
+export function providerConfig(settings={}) {
+  const provider = String(settings.AI_PROVIDER || 'openai').toLowerCase();
+  if (provider === 'groq') return {
+    provider, key:settings.GROQ_API_KEY,
+    model:settings.GROQ_MODEL || 'openai/gpt-oss-20b',
+    endpoint:'https://api.groq.com/openai/v1/responses',
+    keyName:'GROQ_API_KEY', service:'Groq'
+  };
+  if (provider === 'openai') return {
+    provider, key:settings.OPENAI_API_KEY,
+    model:settings.OPENAI_MODEL || 'gpt-4.1-mini',
+    endpoint:'https://api.openai.com/v1/responses',
+    keyName:'OPENAI_API_KEY', service:'OpenAI'
+  };
+  throw new AIError('AI_PROVIDER 只能設定為 openai 或 groq。',503);
+}
 function outputText(data){
   if(data.status==='incomplete') throw new AIError('AI 回應不完整，請重試。');
   const content=(data.output||[]).flatMap(item=>item.content||[]).find(c=>c.type==='output_text' && typeof c.text==='string');
@@ -25,29 +42,33 @@ function outputText(data){
   try{return JSON.parse(content.text);}catch{throw new AIError('AI 回傳的 JSON 格式有誤，請重試。');}
 }
 export async function askJSON({system,user,schema,name,settings={}}){
-  if(!settings.OPENAI_API_KEY) throw new AIError('後端尚未設定 OPENAI_API_KEY，請先在 Cloudflare Worker Secrets 中設定。',503);
+  const config=providerConfig(settings);
+  if(!config.key) throw new AIError(`後端尚未設定 ${config.keyName}，請到 Cloudflare Worker Secrets 設定。`,503);
   const controller=new AbortController();
   const timer=setTimeout(()=>controller.abort(),23000);
   try{
-    const response=await fetch('https://api.openai.com/v1/responses',{
+    const response=await fetch(config.endpoint,{
       method:'POST',signal:controller.signal,
-      headers:{'Content-Type':'application/json','Authorization':`Bearer ${settings.OPENAI_API_KEY}`},
-      body:JSON.stringify({model:settings.OPENAI_MODEL||'gpt-4.1-mini',store:false,max_output_tokens:850,
+      headers:{'Content-Type':'application/json','Authorization':`Bearer ${config.key}`},
+      body:JSON.stringify({model:config.model,store:false,max_output_tokens:config.provider==='groq'?1800:850,
         input:[{role:'system',content:system},{role:'user',content:user}],
         text:{format:{type:'json_schema',name,strict:true,schema}}})
     });
     if(!response.ok){
-      // 不向瀏覽器洩露供應商原始錯誤/金鑰相關資訊。
-      if(response.status===401)throw new AIError('OpenAI API Key 無效，請檢查 Netlify 環境變數。',502);
-      if(response.status===429)throw new AIError('OpenAI API 額度或速率限制已達上限，請檢查帳單與用量。',429);
-      if(response.status===400)throw new AIError('OpenAI API 請求設定有誤，請確認模型可用及 JSON Schema 支援情況。',502);
-      throw new AIError(`OpenAI 服務暫時無法使用（HTTP ${response.status}）。`,502);
+      // 只回傳安全的錯誤資訊，不把供應商的原始回應和金鑰送給使用者。
+      if(response.status===401 || response.status===403)
+        throw new AIError(`${config.service} API Key 無效或沒有權限，請檢查 Cloudflare Secret。`,502);
+      if(response.status===429)
+        throw new AIError(`${config.service} API 已達請求速率或用量上限，請查看服務商的 Limits/Usage。`,429);
+      if(response.status===400)
+        throw new AIError(`${config.service} API 請求設定有誤，請確認模型與 JSON Schema 支援。`,502);
+      throw new AIError(`${config.service} 服務暫時無法使用（HTTP ${response.status}）。`,502);
     }
     return outputText(await response.json());
   }catch(e){
     if(e instanceof AIError)throw e;
-    if(e?.name==='AbortError')throw new AIError('AI 回應超時，請重試。',504);
-    throw new AIError('無法連線至 OpenAI API，請稍後再試。',502);
+    if(e?.name==='AbortError')throw new AIError('AI 回應超時，請稍後重試。',504);
+    throw new AIError(`無法連線至 ${config.service} API，請稍後再試。`,502);
   }finally{clearTimeout(timer);}
 }
 export async function analyzeEmotion(text,settings={}){
