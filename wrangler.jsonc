@@ -3,9 +3,8 @@
   "main": "worker/index.mjs",
   "compatibility_date": "2026-11-21",
   "workers_dev": true,
-  "ratelimits": [{
-    "name": "REQUEST_LIMITER",
-    "namespace_id": "2001",
-    "simple": { "limit": 6, "period": 60 }
-  }]
+  "ai": {"binding": "AI"},
+  "ratelimits": [
+  {"name": "REQUEST_LIMITER","namespace_id": "2001","simple": { "limit": 6, "period": 60 }}
+  {"name":"COVER_LIMITER","namespace_id":"2002","simple":{"limit":2,"period":60}}]
 }
