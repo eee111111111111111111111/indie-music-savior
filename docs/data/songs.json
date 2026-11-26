@@ -158,3 +158,4473 @@
       "walking",
       "city"
     ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市散步與沉思歌單，分類仍待試聽微調。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two anonymous silhouettes crossing at a street corner, their shadows briefly overlapping",
+      "palette": "olive gray, muted violet, sand",
+      "style": "double-exposure film photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S018",
+    "title": "新月",
+    "artist": "VOOID",
+    "youtube_id": "ltSvL6S5D6U",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "romantic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合夜色裡散步，讓想念與城市的光一起留在身邊。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a thin crescent suspended over quiet rooftops and an empty balcony",
+      "palette": "midnight indigo, pearl, lavender",
+      "style": "minimal nocturnal illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S020",
+    "title": "怎麼說？懶得說。OK！",
+    "artist": "VOOID",
+    "youtube_id": "19I3CatE8AA",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "carefree",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合不急著解釋心情的午後，留些空白給自己。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a crumpled blank speech bubble beside a half-finished cup on a bench",
+      "palette": "mustard, muted teal, ivory",
+      "style": "wry paper-cut collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S021",
+    "title": "Baby",
+    "artist": "VOOID",
+    "youtube_id": "MX0J_nlKuqc",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "romantic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】建議放入夜間獨處或相伴的歌單，保留一些不急著說出口的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two small bedside lamps illuminating a shared empty space",
+      "palette": "rose brown, honey, deep navy",
+      "style": "intimate soft-focus photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S022",
+    "title": "Indoornesian",
+    "artist": "VOOID",
+    "youtube_id": "cOvzjcWcLqQ",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "carefree"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為週末歌單的短篇轉場。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an open window above a sunlit indoor plant and patterned rug",
+      "palette": "leaf green, terracotta, pale yellow",
+      "style": "playful interior illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S025",
+    "title": "礦石",
+    "artist": "VOOID",
+    "youtube_id": "mpRQsVP5_iM",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "introspective",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "cloudy",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合陰天慢慢整理心緒，留下一點安靜的重量。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a solitary rough mineral crystal with a translucent glowing seam",
+      "palette": "slate, amethyst, stone gray",
+      "style": "macro mineral still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S027",
+    "title": "風來了",
+    "artist": "VOOID",
+    "youtube_id": "4eUTxGa8mv0",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合留一段較長的獨處時間，讓思緒隨音樂展開。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a translucent curtain caught by wind through an open window",
+      "palette": "silver blue, pale sage, cream",
+      "style": "long-exposure film photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S031",
+    "title": "白痴",
+    "artist": "VOOID",
+    "youtube_id": "qUc3jZNkWbY",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的散步歌單，能量分類待試聽微調。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a crooked paper crown tumbling through a cluster of angular ink marks",
+      "palette": "acid yellow, black, coral",
+      "style": "rough photocopied punk collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S033",
+    "title": "WORLD WAR ZERO",
+    "artist": "VOOID",
+    "youtube_id": "nw1roG_bUJc",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】以短篇搖滾的節奏感作為歌單轉場；與個人版本分開保留。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a fractured abstract map with opposing geometric forces meeting at a blank center",
+      "palette": "rust red, black, bone",
+      "style": "bold distressed graphic print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S038",
+    "title": "不要",
+    "artist": "BB彈",
+    "youtube_id": "SmNAOzTn5UM",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "angry",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放入需要情緒出口與動能的搖滾歌單。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a torn crimson paper barrier cut across by a forceful white slash",
+      "palette": "vermilion, charcoal, ivory",
+      "style": "raw expressionist poster art",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S039",
+    "title": "萬華",
+    "artist": "BB彈",
+    "youtube_id": "t6x0HIu3tIQ",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "city",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合走在熟悉的街區，感受人與地方留下的連結。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "weathered arcade columns and old mosaic tiles in a Wanhua street at dusk",
+      "palette": "ochre, jade, faded brick",
+      "style": "documentary-inspired street photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S041",
+    "title": "Light Coral",
+    "artist": "洪申豪",
+    "youtube_id": "v-0ZV6-j6ZI",
+    "genre": [
+      "indie pop",
+      "lo-fi"
+    ],
+    "mood": [
+      "warm",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "study"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為安靜午後的陪伴，讓日常留下溫柔的光。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a coral-colored glass prism scattering a warm beam on a wooden desk",
+      "palette": "light coral, pale peach, warm cream",
+      "style": "minimal analog still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S042",
+    "title": "生活的答案",
+    "artist": "洪申豪",
+    "youtube_id": "JtKECscj9ZY",
+    "genre": [
+      "indie pop",
+      "lo-fi"
+    ],
+    "mood": [
+      "introspective",
+      "melancholic"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】適合在沒有答案的日子裡，留一點時間給自己。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "an open notebook with empty pages and a pencil pointing toward a window",
+      "palette": "graphite, blue gray, cream",
+      "style": "quiet tabletop photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S044",
+    "title": "電影",
+    "artist": "洪申豪",
+    "youtube_id": "d9Z1fW7xhsQ",
+    "genre": [
+      "indie pop",
+      "lo-fi"
+    ],
+    "mood": [
+      "introspective",
+      "nostalgic"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "coffee"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】適合把日常暫時按下暫停，安靜回看心裡的片段。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a sequence of blank film frames containing blurred fragments of everyday objects",
+      "palette": "sepia, faded teal, charcoal",
+      "style": "experimental film contact sheet",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S049",
+    "title": "WORLD WAR ZERO",
+    "artist": "洪申豪",
+    "youtube_id": "7Y74ZvqqgRE",
+    "genre": [
+      "indie rock",
+      "lo-fi"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】洪申豪個人名義的音源獨立保留，不與 VOOID 版本自動合併。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a broken circular ink print with a single thin guitar-string-like line across it",
+      "palette": "ink blue, washed gray, rust",
+      "style": "sparse handmade print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S051",
+    "title": "Night Cruising",
+    "artist": "洪申豪",
+    "youtube_id": "C27quYitoD4",
+    "genre": [
+      "indie pop",
+      "lo-fi"
+    ],
+    "mood": [
+      "relaxed",
+      "dreamy"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "drive"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】適合夜晚移動時聆聽，讓行程留一些不趕時間的空白。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a late-night road seen through a windshield, distant lights stretched horizontally",
+      "palette": "navy, cyan, muted amber",
+      "style": "soft long-exposure road photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S052",
+    "title": "no white christmas",
+    "artist": "洪申豪",
+    "youtube_id": "mKX0H2lC8YM",
+    "genre": [
+      "indie pop",
+      "lo-fi"
+    ],
+    "mood": [
+      "nostalgic",
+      "lonely"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】適合安靜的夜晚，陪伴帶點落寞的節日心情。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a bare branch and one warm holiday light above a rain-dark sidewalk without snow",
+      "palette": "pine green, cool gray, amber",
+      "style": "quiet winter film photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S055",
+    "title": "病在心裡",
+    "artist": "Sweet John",
+    "youtube_id": "KRNKL6xhIQU",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "introspective",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】建議放在想慢慢梳理情緒的夜間歌單。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a translucent glass heart with a tiny crack resting on dark fabric",
+      "palette": "wine, lavender gray, midnight blue",
+      "style": "conceptual still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S056",
+    "title": "有你的世界",
+    "artist": "Sweet John",
+    "youtube_id": "6dWxlIGs-ic",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm",
+      "hopeful"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合與喜歡的人共享一段不急著結束的傍晚。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two open windows facing a shared golden horizon",
+      "palette": "peach, golden cream, soft green",
+      "style": "warm cinematic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S057",
+    "title": "又見大雨",
+    "artist": "Sweet John",
+    "youtube_id": "QWNcN59Hqqc",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "rainy",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合雨天面對說不清楚的心情，讓情緒有停留的地方。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "rain running down a glass pane with a second reflection of the same window",
+      "palette": "storm blue, violet gray, silver",
+      "style": "layered rain photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S058",
+    "title": "臨床報告",
+    "artist": "Sweet John",
+    "youtube_id": "lcCTQZrcPWU",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "carefree",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "city",
+      "weekend"
+    ],
+    "instruments": [
+      "bass",
+      "drums",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合想暫時鬆開束縛、用一點玩心照顧情緒的時候。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "an abstract pulse trace woven into colorful cut-paper laboratory shapes",
+      "palette": "mint, orange, dark plum",
+      "style": "rhythmic retro graphic collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S059",
+    "title": "愛人與被愛的姿態",
+    "artist": "Sweet John",
+    "youtube_id": "8dhpzY6WhUk",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合練習溫柔對待自己，也重新理解與他人的距離。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two hands reaching toward one another without quite touching",
+      "palette": "warm rose, beige, muted violet",
+      "style": "tactile contemporary illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S060",
+    "title": "追逐，然後跳舞",
+    "artist": "Sweet John",
+    "youtube_id": "iSfOL3dGCuY",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "romantic",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "bass",
+      "drums",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合週末出門前，讓心情先跟著期待動起來。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "two dancers represented by sweeping ribbons moving across a bright floor",
+      "palette": "coral, cobalt, butter yellow",
+      "style": "dynamic retro dance poster",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S061",
+    "title": "誰的",
+    "artist": "Sweet John",
+    "youtube_id": "mid6eQMEx0E",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】建議放入夜間整理心緒的歌單。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an abandoned key and an unclaimed coat on separate hooks",
+      "palette": "deep blue, muted olive, brass",
+      "style": "minimal cinematic still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S062",
+    "title": "一幀",
+    "artist": "Sweet John",
+    "youtube_id": "P1suELG7QOY",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "dreamy"
+    ],
+    "energy": "low",
+    "scene": [
+      "sunset",
+      "coffee"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合把日常的一個片刻留下，慢慢回味。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a single photographic frame holding a sunlit coffee cup and window shadow",
+      "palette": "honey, ivory, pale blue",
+      "style": "nostalgic film still",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S063",
+    "title": "遠",
+    "artist": "Sweet John",
+    "youtube_id": "fts387px6Eo",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "lonely",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合安靜獨處的時候；本曲為「遠」，不是「遠距」。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a distant lighthouse barely visible beyond a wide gray sea",
+      "palette": "mist blue, graphite, white",
+      "style": "minimal landscape photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S070",
+    "title": "我是海浪",
+    "artist": "SADOG",
+    "youtube_id": "E25G0cMm39Q",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合與人相伴的傍晚，讓漂泊感多一點可以依靠的方向。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a rolling sea wave cradling a warm reflection of the sunset",
+      "palette": "deep teal, apricot, seafoam",
+      "style": "fluid painterly seascape",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S071",
+    "title": "4:00A.M.",
+    "artist": "Hormone Boys",
+    "youtube_id": "YN8nNsHzDQ8",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合深夜尚未散去的心事，給焦慮與想念留些空間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an analog clock showing four in a dark apartment, one window lit across the street",
+      "palette": "midnight blue, amber, charcoal",
+      "style": "nocturnal cinematic photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S072",
+    "title": "一如往常",
+    "artist": "逃走鮑伯",
+    "youtube_id": "z1vGOBGr6CQ",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "romantic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合走過熟悉的街道，回看那些看似平常的片刻。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a familiar street corner seen through overlapping translucent daily snapshots",
+      "palette": "faded rose, olive, cream",
+      "style": "nostalgic photo montage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S074",
+    "title": "月光灑落的地方",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "vte9O-buXII",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合城市深夜的孤單時刻，讓失落有地方落腳。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a single patch of moonlight falling across an empty courtyard",
+      "palette": "silver, ink blue, desaturated violet",
+      "style": "high-contrast night photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S075",
+    "title": "巫堵",
+    "artist": "deca joins",
+    "youtube_id": "2433j00VI2g",
+    "genre": [
+      "indie rock",
+      "lo-fi"
+    ],
+    "mood": [
+      "relaxed",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合不趕時間的散步，把注意力慢慢拉回自己。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a winding path through tangled grasses and quiet dark foliage",
+      "palette": "moss green, charcoal, pale gray",
+      "style": "textured organic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S076",
+    "title": "5:10a.m.",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "ypH-7APeG8w",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "lonely",
+      "introspective",
+      "nostalgic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合天亮以前，陪伴對生活方向還不確定的自己。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a quiet rooftop at first light, the sky turning from night blue to peach",
+      "palette": "deep blue, pale peach, gray",
+      "style": "grainy dawn photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S077",
+    "title": "生份的你",
+    "artist": "The Chairs",
+    "youtube_id": "I0Ej0yOHxNo",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "romantic"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "drive"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合在移動中回想一段逐漸陌生的關係。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "two empty seats separated by a window reflection in a moving vehicle",
+      "palette": "muted burgundy, midnight blue, beige",
+      "style": "melancholic analog photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S078",
+    "title": "應該 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:楊乃文)",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "xbWNe9cN7c4",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "fuzzy guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合面對關係裡的距離感，帶一點清醒與不捨。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two mismatched shadows separated by a thin shaft of light",
+      "palette": "charcoal, dusty violet, ivory",
+      "style": "dramatic editorial photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S080",
+    "title": "Last Summer （月亮惹的禍）",
+    "artist": "我是機車少女",
+    "youtube_id": "7mBflNYSBR4",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "nostalgic",
+      "romantic",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "drive"
+    ],
+    "instruments": [
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合傍晚移動時回望夏天，保留一些輕鬆的想念。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a summer car window framing a peach moon and fading seaside light",
+      "palette": "sunset orange, lilac, turquoise",
+      "style": "retro summer postcard illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S081",
+    "title": "還是會寂寞 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:陳綺貞)",
+    "artist": "Amazing Show",
+    "youtube_id": "SHrCg3mcTKM",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic",
+      "lonely"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "city"
+    ],
+    "instruments": [
+      "synth",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合用明亮動能陪伴寂寞，邊走邊讓心情鬆動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a bright moving crowd abstracted around a single still silhouette",
+      "palette": "electric pink, blue, warm gray",
+      "style": "high-energy cut-paper montage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S082",
+    "title": "你終究不愛這世界 (Dear You)",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "6f5ILZgIl4Q",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "melancholic",
+      "angry",
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合需要釋放心裡壓力的夜晚，讓委屈被好好接住。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a small paper figure facing a vast fractured globe suspended in darkness",
+      "palette": "black, crimson, gray",
+      "style": "expressive distressed illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S083",
+    "title": "走",
+    "artist": "Sweet John",
+    "youtube_id": "_mwVkOjW4IE",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "hopeful",
+      "nostalgic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "walking",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合告別之後繼續往前走，保留不捨，也留下一點希望。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a pair of worn shoes at the start of a road toward an open horizon",
+      "palette": "ochre, sage, pale gold",
+      "style": "warm road photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S084",
+    "title": "台北流浪指南",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "-bi2_5SnIBw",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "city",
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合城市裡沒有目的地的散步，陪伴不知如何安放的心情。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a folded blank map winding through Taipei-like alleyways and scooter-lined streets",
+      "palette": "asphalt blue, sodium amber, teal",
+      "style": "urban documentary-inspired collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S085",
+    "title": "二十一世紀的破青年",
+    "artist": "無妄合作社",
+    "youtube_id": "qc3NXh42v5M",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "angry",
+      "introspective",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "city",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合面對成長與現實的摩擦，把疲憊轉成一點前進的力氣。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "patched jacket fabric, concrete fragments and a young anonymous silhouette against a dense city",
+      "palette": "brick red, black, acid yellow",
+      "style": "gritty zine collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S086",
+    "title": "小孩 - Live Staged",
+    "artist": "我是機車少女",
+    "youtube_id": "wncu7ZYdhvs",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "warm",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "weekend"
+    ],
+    "instruments": [
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】保留歌單指定的 Live Staged 版本，適合專心留給自己一段時間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an empty swing in a warmly lit stage-like space",
+      "palette": "amber, dusty blue, cream",
+      "style": "gentle theatrical still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S088",
+    "title": "味道 - 滾石撞樂隊2 (原唱:辛曉琪)",
+    "artist": "Shallow Levée",
+    "youtube_id": "wMdkd-V-Cks",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "warm"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "coffee"
+    ],
+    "instruments": [
+      "guitar",
+      "soft vocals"
+    ],
+    "note": "【建議分類，待試聽複核】適合安靜地想念一個人，把回憶留在柔和的位置。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "steam rising from a cup beside a folded scarf on a quiet table",
+      "palette": "warm brown, muted rose, cream",
+      "style": "soft nostalgic still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S089",
+    "title": "你說台北的天氣好冷",
+    "artist": "當代電影大師",
+    "youtube_id": "5__vg5mHvlo",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "lonely"
+    ],
+    "energy": "medium",
+    "scene": [
+      "city",
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合冷天在城市裡移動，讓疲倦與不安有人陪伴。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a cold Taipei street with condensation on glass and a lone bundled silhouette",
+      "palette": "steel blue, cool gray, dim amber",
+      "style": "winter street photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S090",
+    "title": "日常的鏡頭",
+    "artist": "The Chairs",
+    "youtube_id": "EeIIwXwdxAM",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic",
+      "relaxed"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "weekend",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "soft vocals"
+    ],
+    "note": "【建議分類，待試聽複核】適合悠閒地看待日常，替微小的片刻留一個位置。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a small arrangement of everyday objects framed by a window and soft afternoon shadows",
+      "palette": "warm cream, olive, caramel",
+      "style": "observational analog photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S091",
+    "title": "妳是不是我編出的一個謊？",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "rkr-OcHJST4",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合回看一段變得模糊的關係，整理記憶與失落。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a portrait-shaped empty cutout over a layered photograph of a dim room",
+      "palette": "dusty pink, navy, faded gray",
+      "style": "surreal memory collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S093",
+    "title": "城市潛水",
+    "artist": "The Chairs",
+    "youtube_id": "36NWsDCEj4o",
+    "genre": [
+      "indie pop",
+      "dream pop"
+    ],
+    "mood": [
+      "dreamy",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "city",
+      "walking",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "note": "【建議分類，待試聽複核】適合在城市裡放慢腳步，替熟悉的景色換一種觀看方式。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "city buildings seen as if submerged beneath rippling water",
+      "palette": "aquamarine, lilac, blue gray",
+      "style": "dreamlike underwater collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S094",
+    "title": "持續三年的暈眩",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "PXG-_9XaIVM",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合回望一段漫長的低潮，讓難以說明的感受慢慢浮現。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "three overlapping circular motion trails around a motionless chair",
+      "palette": "plum, gray blue, muted cream",
+      "style": "experimental long-exposure illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S095",
+    "title": "冬天再去見你",
+    "artist": "DSPS",
+    "youtube_id": "0io32VRxmQI",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "romantic",
+      "dreamy"
+    ],
+    "energy": "medium",
+    "scene": [
+      "cloudy",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合帶著等待與想念散步，讓季節承接還沒實現的約定。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two footprints approaching a distant warm window on a cold misty street",
+      "palette": "frost blue, cream, warm amber",
+      "style": "seasonal film photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S096",
+    "title": "浪漫人渣",
+    "artist": "打倒三明治",
+    "youtube_id": "_wK8JS8s_B0",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合面對感情裡的落差，留下柔軟又帶點刺的心情。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a beautiful rose wrapped in rough wire, isolated on a soft gradient",
+      "palette": "wine red, dusty pink, dark green",
+      "style": "surreal editorial still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S099",
+    "title": "一半",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "BAsbT_h4uD8",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "introspective",
+      "dreamy"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】適合接受還沒完整理解自己的時刻，留一半空白給明天。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a half-lit circle with the other half dissolving into a starless sky",
+      "palette": "ink blue, lavender, ivory",
+      "style": "minimal abstract print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S100",
+    "title": "正約之歌",
+    "artist": "溫室雜草",
+    "youtube_id": "le1EkrZvw-o",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "carefree",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進輕鬆的週末歌單，分類仍待試聽微調。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two folded paper shapes joined by a bright thread on a sunlit surface",
+      "palette": "sage, butter yellow, coral",
+      "style": "light handmade paper collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S101",
+    "title": "大雨 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:娃娃)",
+    "artist": "deca joins",
+    "youtube_id": "4FFALDn1yGQ",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "melancholic",
+      "dreamy"
+    ],
+    "energy": "low",
+    "scene": [
+      "rainy",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合雨夜沉浸在回憶中，讓想念慢慢落下。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "soft rain blurring a distant person into watercolor reflections",
+      "palette": "blue gray, faded lavender, pale cream",
+      "style": "dreamlike rainy film photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S102",
+    "title": "就是煞到你",
+    "artist": "SADOG",
+    "youtube_id": "VV1pOMyC9Js",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合回望一段深刻的感情，保留喜歡與不捨同時存在的空間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a sudden spark between two overlapping paper silhouettes",
+      "palette": "warm rose, maroon, pale gold",
+      "style": "romantic handmade collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S103",
+    "title": "一眠",
+    "artist": "Norton Street 諾頓街",
+    "youtube_id": "os8ymyylXdg",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "dreamy",
+      "lonely"
+    ],
+    "energy": "low",
+    "scene": [
+      "night"
+    ],
+    "instruments": [
+      "guitar"
+    ],
+    "note": "【建議分類，待試聽複核】建議放入夜間沉浸與獨處情境。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a pillow on a quiet bed beneath floating translucent dream shapes",
+      "palette": "midnight blue, mist lilac, cream",
+      "style": "soft surreal illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S104",
+    "title": "山頭",
+    "artist": "無妄合作社",
+    "youtube_id": "-58c2qlsIog",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "introspective",
+      "hopeful"
+    ],
+    "energy": "medium",
+    "scene": [
+      "walking",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合留時間給自己，慢慢辨認往前走的方向。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a small climber silhouette looking toward an open ridge at sunset",
+      "palette": "forest green, ochre, pale sky blue",
+      "style": "expansive landscape illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S105",
+    "title": "最后难过的人不是我",
+    "artist": "和平饭店",
+    "youtube_id": "KwUPhKHl_rw",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "energetic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "drive"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進感情失落與移動情境的歌單，仍待試聽微調。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a rearview mirror holding a fading warm light on a dark road",
+      "palette": "navy, crimson, amber",
+      "style": "cinematic moving-road photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S106",
+    "title": "She Loves Me",
+    "artist": "Wendy Wander",
+    "youtube_id": "x9VaNaBrl9w",
+    "genre": [
+      "dream pop",
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "dreamy",
+      "relaxed"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "soft vocals"
+    ],
+    "note": "【建議分類，待試聽複核】適合夜色裡柔軟的相伴，保留一點朦朧的期待。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a small bouquet reflected twice in a softly lit mirror",
+      "palette": "blush, lilac, honey",
+      "style": "dream-pop still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S107",
+    "title": "你不爱我我就爱别人",
+    "artist": "和平饭店",
+    "youtube_id": "e1qVpwhlmc4",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "carefree",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "note": "【建議分類，待試聽複核】建議用在想重新找回主動感的時候，分類仍待試聽微調。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a bold paper heart opening outward into colorful independent paths",
+      "palette": "tomato red, turquoise, yellow",
+      "style": "playful pop-art collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S108",
+    "title": "一去不回來",
+    "artist": "deca joins",
+    "youtube_id": "YiFsNjfa1FY",
+    "genre": [
+      "indie rock",
+      "lo-fi"
+    ],
+    "mood": [
+      "melancholic",
+      "nostalgic",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合面對不可逆的離開，慢慢整理留在身邊的回憶。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "an empty departing platform, one line of footprints fading toward a horizon",
+      "palette": "muted teal, gray, cream",
+      "style": "quiet cinematic landscape",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S109",
+    "title": "Yume",
+    "artist": "我是機車少女",
+    "youtube_id": "CnCb5AhIo_Q",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "dreamy",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "drive"
+    ],
+    "instruments": [
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進夜間移動歌單，讓思緒保有游移的空間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a floating translucent staircase suspended in a pastel night sky",
+      "palette": "lavender, deep indigo, mint",
+      "style": "surreal dream illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S110",
+    "title": "路",
+    "artist": "deca joins",
+    "youtube_id": "wHNsSxYtCpE",
+    "genre": [
+      "indie rock",
+      "lo-fi"
+    ],
+    "mood": [
+      "introspective",
+      "lonely"
+    ],
+    "energy": "medium",
+    "scene": [
+      "walking",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】適合一個人走路時聽，把還沒說清楚的心情留給路程。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a narrow empty road bending away beneath a single streetlamp",
+      "palette": "charcoal, muted ochre, deep blue",
+      "style": "minimal nocturnal road photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S111",
+    "title": "大雨",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "cgwK5-6JgvI",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "heavy diagonal rain striking pavement beside a lone shelter",
+      "palette": "storm gray, ink blue, white",
+      "style": "high-contrast rain photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S112",
+    "title": "忘了把奇蹟帶來",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "ptoFdpo-n2g",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "hopeful",
+      "warm"
+    ],
+    "energy": "high",
+    "scene": [
+      "morning",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在想重新出發的時候聆聽，替日常留一點期待。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a tiny golden opening in a cracked gray wall, morning light spilling out",
+      "palette": "gold, slate, warm white",
+      "style": "hopeful conceptual print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S113",
+    "title": "Bottom of the Hill",
+    "artist": "我是機車少女",
+    "youtube_id": "g6wpj-_yNSY",
+    "genre": [
+      "indie pop",
+      "indie funk"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a small house at the foot of a rolling hill beneath a twilight sky",
+      "palette": "moss, lilac, muted peach",
+      "style": "dreamy landscape illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S114",
+    "title": "開店歌",
+    "artist": "無妄合作社",
+    "youtube_id": "jZzzwd_CDQM",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "carefree",
+      "relaxed"
+    ],
+    "energy": "high",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進週末出門的歌單，給自己一段輕鬆的時間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a shop shutter rising into warm morning light with scattered geometric motion marks",
+      "palette": "orange, teal, cream",
+      "style": "lively street-inspired print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S115",
+    "title": "離開雨季",
+    "artist": "一種心情",
+    "youtube_id": "IZat40_Yojs",
+    "genre": [
+      "indie rock"
+    ],
+    "mood": [
+      "hopeful",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "morning",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在想重新出發的時候聆聽，替日常留一點期待。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "rain clouds parting over a fresh green path and bright puddles",
+      "palette": "fresh green, sky blue, pale gold",
+      "style": "hopeful landscape illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S116",
+    "title": "在时间的答案里",
+    "artist": "和平饭店",
+    "youtube_id": "mRbR012lWJE",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在獨處或散步時聆聽，安靜整理自己的想法。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an hourglass with tiny road fragments instead of sand",
+      "palette": "sepia, midnight blue, ivory",
+      "style": "surreal conceptual still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S117",
+    "title": "Roadkill",
+    "artist": "打倒三明治",
+    "youtube_id": "REcj-0tm7QE",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an empty roadside shoulder with a crushed paper flower and drifting headlights",
+      "palette": "asphalt, burgundy, gray",
+      "style": "melancholic cinematic still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S118",
+    "title": "Midnight Confessions",
+    "artist": "Norton Street 諾頓街",
+    "youtube_id": "UrQ7FjTEiNc",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市夜間的獨處歌單，陪伴暫時沒有答案的心情。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a sealed envelope on a windowsill with distant midnight lights",
+      "palette": "indigo, faded rose, amber",
+      "style": "intimate night photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S119",
+    "title": "長夜賽跑 Nights",
+    "artist": "Andr",
+    "youtube_id": "RNcflpaM2zg",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a runner's silhouette rendered as bright repeated motion traces across dark space",
+      "palette": "electric blue, magenta, black",
+      "style": "kinetic graphic artwork",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S120",
+    "title": "你迎面走來，再面無表情地離開",
+    "artist": "溫室雜草",
+    "youtube_id": "y_j15CJctZw",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two figures passing without meeting eyes, separated by a vertical reflection",
+      "palette": "gray blue, pale pink, charcoal",
+      "style": "restrained street photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S121",
+    "title": "青春之歌",
+    "artist": "無妄合作社",
+    "youtube_id": "qRCnF7SMufo",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "sunset",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在傍晚回望一段日子，讓回憶與當下慢慢交會。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "scattered youthful snapshots and a worn sneaker catching sunset light",
+      "palette": "burnt orange, denim blue, cream",
+      "style": "energetic scrapbook collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S122",
+    "title": "那天我們看著星夜 (2019 demo)",
+    "artist": "溫室雜草",
+    "youtube_id": "1iBVced6_F4",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "two small silhouettes under a broad star-filled sky, no visible faces",
+      "palette": "deep indigo, pale violet, starlight white",
+      "style": "dreamy celestial landscape",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S123",
+    "title": "對不起我做不到答應了你的事",
+    "artist": "康士坦的變化球",
+    "youtube_id": "grhmRInuUOc",
+    "genre": [
+      "alternative rock"
+    ],
+    "mood": [
+      "angry",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要情緒出口的時刻，讓壓抑的心情有釋放的空間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a torn promise note with blank paper fragments pulled in opposite directions",
+      "palette": "crimson, charcoal, bone",
+      "style": "raw tactile collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S125",
+    "title": "人們來了",
+    "artist": "無妄合作社",
+    "youtube_id": "aPHBZj3bV08",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a crowd of abstract colored silhouettes entering a common open space",
+      "palette": "orange, black, cyan",
+      "style": "bold rhythmic poster illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S126",
+    "title": "自說自話",
+    "artist": "The Chairs",
+    "youtube_id": "MDiWz28LUWA",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "relaxed",
+      "carefree"
+    ],
+    "energy": "medium",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為休息或喝咖啡時的陪伴，讓一天的步調慢一些。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an empty chair facing its own shadow beside a cup of coffee",
+      "palette": "warm beige, olive, brown",
+      "style": "gentle interior photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S128",
+    "title": "樹屋",
+    "artist": "The Chairs",
+    "youtube_id": "qBqieYMroYY",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "warm",
+      "hopeful"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要溫柔陪伴的時候，替生活增加一點安心感。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a small treehouse nestled in generous green branches and warm sunlight",
+      "palette": "leaf green, golden brown, cream",
+      "style": "hand-painted woodland illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S129",
+    "title": "在圍城時與你失散",
+    "artist": "無妄合作社",
+    "youtube_id": "YRfz9u2te9M",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "two separated paths winding through tall maze-like concrete walls",
+      "palette": "slate, rust, pale gray",
+      "style": "dramatic architectural illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S130",
+    "title": "也許是你拯救了我",
+    "artist": "The Chairs",
+    "youtube_id": "7kc7qxBsNqk",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a hand extending a small lantern toward another hand in shadow",
+      "palette": "amber, navy, rose",
+      "style": "intimate cinematic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S131",
+    "title": "房間",
+    "artist": "溫室雜草",
+    "youtube_id": "Q6r791v5Fk0",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在獨處或散步時聆聽，安靜整理自己的想法。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a solitary room with an unmade bed and a thin rectangle of window light",
+      "palette": "dusty blue, beige, gray",
+      "style": "quiet interior film photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S132",
+    "title": "No Mercy",
+    "artist": "無妄合作社",
+    "youtube_id": "qblbfbnvh70",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "angry",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要情緒出口的時刻，讓壓抑的心情有釋放的空間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "sharp angular black and red shapes colliding with a torn paper edge",
+      "palette": "black, scarlet, off-white",
+      "style": "aggressive screen print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S133",
+    "title": "進城",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "dLg8835chzE",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a street entrance opening onto a bustling city rendered as diagonally moving blocks",
+      "palette": "brick, cobalt, yellow",
+      "style": "dynamic urban graphic collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S134",
+    "title": "失戀後的那個禮拜",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "JVq7fvVLFxI",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a seven-day sequence of empty photo frames beside a fading flower",
+      "palette": "dusty rose, cool gray, burgundy",
+      "style": "melancholic memory collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S135",
+    "title": "給夜歸的你 ft.黃玠",
+    "artist": "庸俗救星Vulgar Savior",
+    "youtube_id": "VdZ1_hoNgZ8",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "warm",
+      "hopeful"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要溫柔陪伴的時候，替生活增加一點安心感。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a porch light and a welcoming doorway on a dark homeward street",
+      "palette": "amber, deep blue, cream",
+      "style": "warm nocturnal illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S136",
+    "title": "苦力怕",
+    "artist": "JADE",
+    "youtube_id": "OR9BohAdxGY",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "angry",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要情緒出口的時刻，讓壓抑的心情有釋放的空間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a pixel-like green geometric creature silhouette dissolving into jagged abstract shapes",
+      "palette": "acid green, black, charcoal",
+      "style": "original glitch-inspired graphic print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S138",
+    "title": "Rollin' On",
+    "artist": "The Chairs",
+    "youtube_id": "v0F6Vd46v10",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "carefree",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進週末出門的歌單，給自己一段輕鬆的時間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a rolling circular shape crossing layered pastel hills",
+      "palette": "turquoise, peach, mustard",
+      "style": "playful retro illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S139",
+    "title": "冬五環 (5th Ring Rd.)",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "bJP9-mbLhGM",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市夜間的獨處歌單，陪伴暫時沒有答案的心情。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a looping elevated roadway through a winter-gray city, tiny isolated headlights",
+      "palette": "steel gray, navy, dim amber",
+      "style": "cold urban landscape photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S140",
+    "title": "惦惦的夢",
+    "artist": "The Chairs",
+    "youtube_id": "Hk5Z0NP2yjs",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a closed window with a faint dreamlike cloud reflected in the glass",
+      "palette": "pale lavender, ink blue, pearl",
+      "style": "soft surreal photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S141",
+    "title": "我會不會又睡到下午了",
+    "artist": "DSPS",
+    "youtube_id": "vKTMkSHxeKY",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "relaxed",
+      "carefree"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為休息或喝咖啡時的陪伴，讓一天的步調慢一些。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "afternoon sun spilling across rumpled sheets and a sleeping mask",
+      "palette": "butter yellow, dusty pink, warm white",
+      "style": "relaxed domestic still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S142",
+    "title": "天堂",
+    "artist": "無妄合作社",
+    "youtube_id": "g09gHpPgIXE",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "hopeful",
+      "warm"
+    ],
+    "energy": "high",
+    "scene": [
+      "morning",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在想重新出發的時候聆聽，替日常留一點期待。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a bright open archway above a rough landscape, light breaking through",
+      "palette": "sky blue, gold, cream",
+      "style": "expressive hopeful print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S143",
+    "title": "城市的浪漫運作",
+    "artist": "Sweet John",
+    "youtube_id": "N3zvCzotRLg",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two softly lit intersecting tram-like routes forming an abstract heart in a city grid",
+      "palette": "rose, twilight blue, amber",
+      "style": "romantic urban graphic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S144",
+    "title": "安平之光",
+    "artist": "イルカポリス 海豚刑警",
+    "youtube_id": "ZrpZB8-VBD0",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a bright coastal beam over old Anping-inspired brick lanes and harbor water",
+      "palette": "turquoise, warm brick, yellow",
+      "style": "energetic coastal collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S145",
+    "title": "安靜的美好",
+    "artist": "康士坦的變化球",
+    "youtube_id": "Nf1DNd-ihLk",
+    "genre": [
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a tiny white flower growing through a crack in a dark stone surface",
+      "palette": "charcoal, sage, warm white",
+      "style": "minimal macro still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S146",
+    "title": "留給你的我從未",
+    "artist": "Sweet John",
+    "youtube_id": "gWo_YCdip7I",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a folded unsent envelope left beside an empty glass on a dim windowsill",
+      "palette": "blue gray, faded rose, ivory",
+      "style": "melancholic interior photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S147",
+    "title": "Maybe Maybe",
+    "artist": "The Chairs",
+    "youtube_id": "9cc7qdRV-MI",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "carefree",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進週末出門的歌單，給自己一段輕鬆的時間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two branching dotted paths meeting and separating across pastel paper",
+      "palette": "mint, peach, mustard",
+      "style": "playful minimalist illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S148",
+    "title": "夜走",
+    "artist": "打倒三明治",
+    "youtube_id": "o_XcYU0bg_U",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市夜間的獨處歌單，陪伴暫時沒有答案的心情。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a solitary pair of shoes crossing a pool of streetlight on a dark sidewalk",
+      "palette": "navy, charcoal, pale amber",
+      "style": "night street photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S149",
+    "title": "水槍",
+    "artist": "溫室雜草",
+    "youtube_id": "6AuqHKgyxN0",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "carefree",
+      "relaxed"
+    ],
+    "energy": "high",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進週末出門的歌單，給自己一段輕鬆的時間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a colorful toy water pistol spraying translucent arcs in summer light",
+      "palette": "aqua, coral, lemon",
+      "style": "playful summer screen print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S152",
+    "title": "夜長夢少 (Morpheus)",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "Yn_s2qhNt3Q",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a long dark hallway opening into a small floating dream cloud",
+      "palette": "indigo, violet, pearl",
+      "style": "surreal nocturnal illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S154",
+    "title": "美好前程 (Waiting on The Day)",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "Cqb5o3w36CI",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "hopeful",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "morning",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在想重新出發的時候聆聽，替日常留一點期待。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an open road leading to a new day with a bright line of sunrise",
+      "palette": "gold, sky blue, rust",
+      "style": "optimistic landscape graphic",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S155",
+    "title": "夜間獨白",
+    "artist": "deca joins",
+    "youtube_id": "yf8vHUSHumY",
+    "genre": [
+      "indie rock",
+      "lo-fi"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "low",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市夜間的獨處歌單，陪伴暫時沒有答案的心情。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "an empty chair and a single lamp in a deep blue room",
+      "palette": "navy, muted amber, ash gray",
+      "style": "introspective cinematic photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S156",
+    "title": "明白我的心",
+    "artist": "Wendy Wander",
+    "youtube_id": "kyhthTloAIg",
+    "genre": [
+      "dream pop",
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "low",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a small transparent heart held gently between two open hands",
+      "palette": "soft rose, pale gold, lavender",
+      "style": "tender still-life illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S157",
+    "title": "直到你帶走我",
+    "artist": "Sweet John",
+    "youtube_id": "BfFr8kuIt0A",
+    "genre": [
+      "indie pop",
+      "indie rock"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "two overlapping silhouettes moving together toward a distant glow",
+      "palette": "peach, indigo, rose",
+      "style": "romantic cinematic collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S158",
+    "title": "我想和你一起",
+    "artist": "Wendy Wander",
+    "youtube_id": "ltFNlTWDgU8",
+    "genre": [
+      "dream pop",
+      "indie pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "low",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "two bicycles resting together beside a glowing evening horizon",
+      "palette": "warm apricot, soft teal, lavender",
+      "style": "dreamy analog illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S159",
+    "title": "擱淺的人",
+    "artist": "康士坦的變化球",
+    "youtube_id": "cW3SoZ3PE60",
+    "genre": [
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "an abandoned small boat stranded on a rough shoreline beneath dense clouds",
+      "palette": "slate, dark sea green, rust",
+      "style": "dramatic coastal photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S160",
+    "title": "在這個年代，找不到浪漫",
+    "artist": "溫室雜草",
+    "youtube_id": "Z7i7iZnZ0vQ",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "sunset",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在傍晚回望一段日子，讓回憶與當下慢慢交會。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a faded paper heart among modern concrete and discarded blank receipts",
+      "palette": "dusty pink, concrete gray, muted red",
+      "style": "urban editorial collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S161",
+    "title": "做夢的人 (Bonus Track)",
+    "artist": "Amazing Show",
+    "youtube_id": "-zIhxTZwBmE",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a sleeping figure's silhouette beneath suspended geometric dream objects",
+      "palette": "lavender, indigo, pale peach",
+      "style": "surreal paper collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S162",
+    "title": "白鯨",
+    "artist": "Amazing Show",
+    "youtube_id": "B13RLYxcxGk",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在獨處或散步時聆聽，安靜整理自己的想法。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a white whale shape swimming through a vast dark blue abstract sea",
+      "palette": "deep ocean blue, ivory, teal",
+      "style": "minimal marine illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S164",
+    "title": "神的孩子都在摔跤",
+    "artist": "無妄合作社",
+    "youtube_id": "X89OLHtEtwM",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "angry",
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給需要情緒出口的時刻，讓壓抑的心情有釋放的空間。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "small anonymous figures tumbling across a tilted geometric floor",
+      "palette": "black, rust, yellow",
+      "style": "energetic expressionist print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S165",
+    "title": "Only Scott Knows",
+    "artist": "Amazing Show",
+    "youtube_id": "dN3yWXc5UsY",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "relaxed",
+      "carefree"
+    ],
+    "energy": "medium",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為休息或喝咖啡時的陪伴，讓一天的步調慢一些。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a small locked box beside a quiet cup and a shaft of afternoon light",
+      "palette": "olive, honey, cream",
+      "style": "intimate retro still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S166",
+    "title": "141.44",
+    "artist": "Hormone Boys",
+    "youtube_id": "sWKalpwhV14",
+    "genre": [
+      "alternative rock",
+      "indie rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "high",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a fragmented abstract frequency dial with rhythmic angular marks and no numerals",
+      "palette": "red, black, electric blue",
+      "style": "kinetic graphic print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S169",
+    "title": "昨暝阿爸無轉來",
+    "artist": "Amazing Show",
+    "youtube_id": "QiaQY4oj24Y",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "synth",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an empty chair near a doorway at night, warm light waiting within",
+      "palette": "deep blue, muted amber, brown",
+      "style": "quiet narrative photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S170",
+    "title": "沒有人在意他的眼睛裡",
+    "artist": "打倒三明治",
+    "youtube_id": "IDVYEDvhRuk",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "lonely",
+      "melancholic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "city"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進城市夜間的獨處歌單，陪伴暫時沒有答案的心情。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a single eye-shaped reflection hidden among blurred city windows",
+      "palette": "charcoal, pale blue, violet",
+      "style": "surreal urban photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S171",
+    "title": "忽然之間 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:莫文蔚)",
+    "artist": "逃走鮑伯",
+    "youtube_id": "3N-YAGcPpMw",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a quiet room interrupted by a sudden beam of light and floating dust",
+      "palette": "slate, warm ivory, muted gold",
+      "style": "cinematic interior photograph",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S172",
+    "title": "手捧一杯酒",
+    "artist": "The Chairs",
+    "youtube_id": "IDkL9qGX4bk",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "relaxed",
+      "carefree"
+    ],
+    "energy": "low",
+    "scene": [
+      "coffee",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議作為休息或喝咖啡時的陪伴，讓一天的步調慢一些。",
+    "color_palette": [
+      "#304656",
+      "#8897a3",
+      "#d5c9bf"
+    ],
+    "cover_art": {
+      "motif": "a hand cradling a glass in a warm pool of afternoon light",
+      "palette": "amber, olive, cream",
+      "style": "relaxed analog still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S173",
+    "title": "HoydeA",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "iW9qteSwZZg",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "energy": "medium",
+    "scene": [
+      "walking",
+      "weekend"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進需要動能的出門歌單，讓停滯的心情開始移動。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a zigzag of bold abstract shapes leaping across a sunlit sidewalk",
+      "palette": "cobalt, orange, black",
+      "style": "energetic graphic collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S174",
+    "title": "建議是看開點",
+    "artist": "The Chairs",
+    "youtube_id": "sTxgxeoxuaU",
+    "genre": [
+      "indie pop"
+    ],
+    "mood": [
+      "carefree",
+      "relaxed"
+    ],
+    "energy": "medium",
+    "scene": [
+      "weekend",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進週末出門的歌單，給自己一段輕鬆的時間。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "an open hand releasing a paper knot into clear air",
+      "palette": "sage, pale yellow, sky blue",
+      "style": "gentle optimistic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S175",
+    "title": "當ㄋ沉睡ㄉ時候告訴婐ㄋ夢到ㄌ婐",
+    "artist": "イルカポリス 海豚刑警",
+    "youtube_id": "sBmq2XBYaBo",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "high",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "two translucent dream bubbles floating above a sleeping silhouette",
+      "palette": "pink, lavender, midnight blue",
+      "style": "playful dream collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S176",
+    "title": "也許我見不到你了",
+    "artist": "Wayne's so Sad",
+    "youtube_id": "dnXGOfkV1ME",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a fading silhouette behind an empty doorway and a distant streetlight",
+      "palette": "gray blue, dim amber, charcoal",
+      "style": "quiet cinematic photography",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S177",
+    "title": "我常常有一種感覺",
+    "artist": "當代電影大師",
+    "youtube_id": "RFwl98N_Kss",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在獨處或散步時聆聽，安靜整理自己的想法。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "an anonymous silhouette surrounded by vibrating concentric ink marks",
+      "palette": "black, vermilion, gray",
+      "style": "expressive textured print",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S178",
+    "title": "春天有腳",
+    "artist": "溫室雜草",
+    "youtube_id": "25CsgpLMVNg",
+    "genre": [
+      "indie rock",
+      "indie pop"
+    ],
+    "mood": [
+      "hopeful",
+      "warm"
+    ],
+    "energy": "medium",
+    "scene": [
+      "morning",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在想重新出發的時候聆聽，替日常留一點期待。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "tiny spring flowers and sprouting leaves forming a walking rhythm along a path",
+      "palette": "fresh green, yellow, sky blue",
+      "style": "playful seasonal illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S179",
+    "title": "心碎症候群",
+    "artist": "打倒三明治",
+    "youtube_id": "-7mh4SGShC0",
+    "genre": [
+      "indie rock",
+      "dream pop"
+    ],
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "cloudy"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進陰天與夜晚整理心情的歌單，留一些空間給難以說清楚的感受。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a fragmented glass heart held together by thin golden threads",
+      "palette": "burgundy, muted rose, gray",
+      "style": "surreal conceptual still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S180",
+    "title": "視線所及只剩生活 (Life Recodring)",
+    "artist": "傻子與白痴 Fool And Idiot",
+    "youtube_id": "vNEJtGePnXM",
+    "genre": [
+      "indie pop",
+      "alternative rock"
+    ],
+    "mood": [
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在獨處或散步時聆聽，安靜整理自己的想法。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "ordinary household objects arranged within a narrow rectangular viewfinder",
+      "palette": "muted teal, beige, charcoal",
+      "style": "observational documentary collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S181",
+    "title": "大家都唾棄ㄉ低能婐愛ㄋ",
+    "artist": "イルカポリス 海豚刑警",
+    "youtube_id": "mJbztWIzLkM",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "high",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a brightly colored patch mending a torn paper heart among dark shapes",
+      "palette": "hot pink, black, gold",
+      "style": "bold affectionate punk collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S182",
+    "title": "愛物語to die",
+    "artist": "SADOG",
+    "youtube_id": "L4tigHsMwCw",
+    "genre": [
+      "indie rock",
+      "alternative rock"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "energy": "high",
+    "scene": [
+      "sunset",
+      "night"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議放進與人相伴或想念某人的歌單，留住心裡柔軟的位置。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "a red ribbon winding around a thorny flower and fading into shadow",
+      "palette": "crimson, black, pale rose",
+      "style": "dramatic romantic still life",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S189",
+    "title": "青春劇烈物語",
+    "artist": "午夜乒乓",
+    "youtube_id": "2dlByg9S0ec",
+    "genre": [
+      "indie rock",
+      "post-punk"
+    ],
+    "mood": [
+      "nostalgic",
+      "introspective"
+    ],
+    "energy": "high",
+    "scene": [
+      "sunset",
+      "walking"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議在傍晚回望一段日子，讓回憶與當下慢慢交會。",
+    "color_palette": [
+      "#643a46",
+      "#bd755e",
+      "#efd39a"
+    ],
+    "cover_art": {
+      "motif": "scattered torn snapshots, sneakers and vivid streaks of sunset",
+      "palette": "orange, magenta, denim blue",
+      "style": "raw post-punk zine collage",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  },
+  {
+    "id": "S190",
+    "title": "心悸迷航 Heartbeat Odyssey",
+    "artist": "午夜乒乓",
+    "youtube_id": "aMICiduvuRQ",
+    "genre": [
+      "indie rock",
+      "post-punk"
+    ],
+    "mood": [
+      "dreamy",
+      "introspective"
+    ],
+    "energy": "medium",
+    "scene": [
+      "night",
+      "sunset"
+    ],
+    "instruments": [
+      "guitar",
+      "bass",
+      "drums"
+    ],
+    "note": "【建議分類，待試聽複核】建議留給不趕時間的傍晚或夜晚，讓思緒自由停留。",
+    "color_palette": [
+      "#554467",
+      "#9b86a5",
+      "#e4c8af"
+    ],
+    "cover_art": {
+      "motif": "a pulse-like luminous line navigating a dark abstract star field",
+      "palette": "electric violet, navy, cyan",
+      "style": "surreal kinetic graphic illustration",
+      "basis": "creative interpretation of supplied title and provisional tags; not verified audio or lyrics"
+    }
+  }
+]
