@@ -1,0 +1,14 @@
+{
+  "name": "indie-music-savior",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-11-21",
+  "workers_dev": true,
+  "vars": {
+    "AI_PROVIDER": "groq",
+    "GROQ_MODEL": "openai/gpt-oss-20b",
+    "ALLOWED_ORIGIN": "https://eee111111111111111111111.github.io"},
+  "ai": {"binding": "AI"},
+  "ratelimits": [
+  {"name":"REQUEST_LIMITER","namespace_id":"2001","simple":{"limit": 10, "period": 60}},
+  {"name":"COVER_LIMITER","namespace_id":"2002","simple":{"limit":10,"period":60}}]
+}
