@@ -4,7 +4,7 @@
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#14111b">
  <meta name="description" content="歌荒救星，找到與此刻心情同頻的獨立音樂，閱讀專屬樂評，創作想像中的唱片封面。">
  <title>歌荒救星 — Indie Music Savior</title>
- <link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script>
+ <link rel="stylesheet" href="style.css"><script type="module" src="app.js?update=smooth1"></script>
 </head>
 <body>
  <div class="ambient glow-a" aria-hidden="true"></div><div class="ambient glow-b" aria-hidden="true"></div>
@@ -21,13 +21,13 @@
    </section>
    <section class="result" id="results" hidden aria-labelledby="song-name">
     <div class="result-grid"><div class="left-result">
-      <div id="cover" class="cover" aria-label="專屬唱片封面"><img id="cover-ai-image" class="cover-ai-image" alt="AI 生成的原創唱片封面" hidden><div class="cover-placeholder"><div class="record" aria-hidden="true"><div class="record-center"><div class="record-hole"></div></div></div><span></span></div></div>
+      <div id="cover" class="cover" aria-label="專屬唱片封面"><img id="cover-ai-image" class="cover-ai-image" alt="AI 生成的原創唱片封面" hidden><div class="cover-placeholder"><div class="record" aria-hidden="true"><div class="record-center"><div class="record-hole"></div></div></div></div></div>
       <div class="cover-controls"><button id="generate-cover" type="button" class="small-primary" disabled>✦ 生成專屬封面</button><a id="download-cover" class="small-outline" href="#" download="indie-original-cover.jpg" hidden>↓ 下載封面</a></div>
       <p class="cover-caption" id="cover-image-status" role="status" aria-live="polite"></p><p class="cover-caption" id="cover-caption" hidden>AI 原創設計，非官方唱片封面。</p>
      </div><div class="right-result"><div class="result-kicker"><span>為你選的一首歌</span><span id="score"></span></div><h2 id="song-name">—</h2><p class="artist" id="artist">—</p><div class="tags" id="tags"></div>
       <article class="review"><div class="block-heading"><span id="review-heading">微型樂評</span><span id="review-source"></span></div><p id="review-text"></p></article>
       <article class="reason"><h3>選歌理由</h3><p id="reason-text"></p></article>
-      <div class="song-actions"><button id="again-btn" type="button" class="small-primary" disabled>⤨ 再推薦一首</button><a id="youtube-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="small-outline">↗ 在 YouTube 開啟</a></div><p id="result-message" class="cover-caption" role="status"></p>
+      <div class="song-actions"><button id="review-btn" type="button" class="small-outline" hidden disabled>✦ 生成 AI 樂評</button><button id="again-btn" type="button" class="small-primary" disabled>⤨ 再推薦一首</button><a id="youtube-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="small-outline">↗ 在 YouTube 開啟</a></div><p id="result-message" class="cover-caption" role="status"></p>
     </div></div>
     <div class="player-section"><h3 class="section-title">聆聽這首歌</h3><div id="player" class="player"></div><p class="player-hint">若無法播放，可直接在 YouTube 開啟。</p></div>
     <details class="prompt-panel"><summary>創作細節</summary><div class="analysis-area"><h3>情緒與歌曲標籤</h3><div id="analysis-tags" class="tag-board"></div><p id="analysis-explanation" class="analysis-explanation"></p></div><div class="prompt-top"><h3>封面提示詞</h3><button id="copy-prompt" class="copy-btn" type="button">複製</button></div><p id="prompt-text" class="prompt-text"></p></details>
