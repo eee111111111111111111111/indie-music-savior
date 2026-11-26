@@ -1,89 +1,64 @@
-# 🎵 歌荒救星 V2.2：改用 Groq 免費方案的操作步驟
+# 部署與 API 設定
 
-本專案根據 V2.1 GitHub Pages + Cloudflare Workers 完整版修改，仍是 **即時 LLM 生成**，不是示範資料。
+[返回專案首頁](README.md)
 
-## 何時適用
+本文件對應目前的歌曲探索、Groq 微型樂評與 FLUX 封面生成功能。已部署的使用者只需更新原本 Repository；不要重新建立 Worker 或公開 API Key。
 
-當 OpenAI API 出現 `insufficient_quota`、無法繼續儲值，或想要測試免費方案時，可以把後端改成 Groq Cloud。
+## 1. 部署 GitHub Pages
 
-Groq 的免費方案有 RPM / TPM / RPD 等限制，**不是無限制**；請在 https://console.groq.com/docs/rate-limits 核對目前帳戶限額。
+將專案內容放在 Repository 根目錄（不要再包一層資料夾或直接上傳 ZIP）。進入 `Settings → Pages → Build and deployment`，選擇 `Deploy from a branch`、`main`、`/docs`，儲存並確認發布成功。以 `Visit site` 顯示的網址為準。
 
-## 1. 將修改版程式更新到 GitHub
+## 2. 部署 Cloudflare Worker
 
-這份 ZIP 的 GitHub 結構仍是：`docs/`、`worker/`、`shared/`、`tests/`、`wrangler.jsonc`、`package.json`。
+在 Cloudflare Dashboard 的 Workers & Pages 建立或開啟現有 Worker，連接 GitHub Repository。正式分支為 `main`，根目錄為 Repository 根目錄，部署指令為 `npx wrangler deploy`。Worker 名稱必須與 `wrangler.jsonc` 的 `name` 一致。既有專案請保留目前名稱、相容日期與綁定設定。
 
-你可以在 GitHub 網頁編輯原 Repo：只需要更新三個既有檔案：
+## 3. 環境變數與模型
 
-- `shared/openai.mjs`
-- `worker/index.mjs`
-- `tests/worker.test.mjs`（可選，供自動測試使用）
+在 [Groq Console](https://console.groq.com/keys) 建立金鑰，然後前往 Worker 的 `Settings → Variables and Secrets` 新增 Secret `GROQ_API_KEY`，部署變更。不要把金鑰放到 GitHub、README、前端或一般 `vars` 中。
 
-並可新增本說明 `GROQ_SETUP.md`。**不要修改 `wrangler.jsonc` 原有 Worker 名稱**，除非確定目前設定不一致。
+| 名稱 | 位置 | 設定 |
+| --- | --- | --- |
+| `AI_PROVIDER` | `wrangler.jsonc` → `vars` | `groq` |
+| `GROQ_MODEL` | `vars` | `openai/gpt-oss-20b` |
+| `ALLOWED_ORIGIN` | `vars` | GitHub Pages 的 origin，例如 `https://your-account.github.io`，不含路徑或尾端斜線 |
+| `GROQ_API_KEY` | Cloudflare Secret | Groq 金鑰 |
+| `AI` | `ai.binding` | Workers AI 綁定 |
+| `REQUEST_LIMITER` | `ratelimits` | 心情推薦及指定歌曲樂評共用 |
+| `COVER_LIMITER` | `ratelimits` | 圖片生成 |
 
-不建議直接把整包 ZIP 作為 GitHub 單一檔案上傳。若透過 GitHub 網頁覆蓋，打開每個檔案的鉛筆編輯功能，貼入新檔案完整內容，按 Commit changes。
+目前上傳的設定中兩個 limiter 均為 10 次／60 秒，為近似每 IP 限制，不是服務商額度。不要以提高限流值作為增加免費配額的方法。圖片模型直接使用 `env.AI`，無須另一組圖片 API Key。
 
-## 2. Groq 建立 API Key
+將 Worker 的實際公開 URL 填入 `docs/config.js` 的 `API_BASE`，不含 `/status` 或 `/recommend`。重新提交後確認 GitHub Pages 與 Worker 均完成部署。
 
-1. 打開 https://console.groq.com/ ，建立或登入帳號。
-2. 在 `API Keys` 頁建立新金鑰，命名為 `indie-music-savior`。
-3. 複製後直接保存到 Cloudflare Secret；不要貼入 GitHub 或 ChatGPT。
+### 可選：切換 OpenAI
 
-## 3. 在 Cloudflare Worker 設定三個變數
+將 `AI_PROVIDER` 改為 `openai`，可選填 `OPENAI_MODEL`（預設 `gpt-4.1-mini`），並在 Cloudflare 新增 `OPENAI_API_KEY` Secret。這是手動切換，不會在 Groq 超限時自動使用 OpenAI。OpenAI API 另行計費。
 
-`Workers & Pages → 你已部署的 Worker → Settings → Variables and Secrets`：
+## 4. API 與驗收
 
-| 名稱 | 類型 | 值 |
-|---|---|---|
-| `AI_PROVIDER` | Text | `groq` |
-| `GROQ_API_KEY` | Secret | 你的 Groq 金鑰 |
-| `GROQ_MODEL` | Text（選用） | `openai/gpt-oss-20b` |
+開啟 Worker 公開網址加上 `/status`，確認 `ok`、`configured`、`recommendReady`、`llmReady`、`imageReady` 為 `true`，並確認 `provider`、`model` 與 `interaction: "local-random-v1"`。這只驗證設定存在，不保證金鑰、供應商額度或實際推論成功。
 
-**保留**原本的 `ALLOWED_ORIGIN`，例如 `https://你的帳號.github.io`。
-`OPENAI_API_KEY` 可以移除，或保留但已設定 `AI_PROVIDER=groq` 時不會被使用。
+| 路徑 | 方法 | 輸入與用途 |
+| --- | --- | --- |
+| `/status` | GET | 服務就緒狀態，不回傳 Secret |
+| `/recommend` | POST | `mode: "mood"`、`mood`、`previousId`、`useLLM`；心情配對與樂評 |
+| `/recommend` | POST | `mode: "review"`、`songId`、`mood`、`useLLM`；指定歌曲樂評 |
+| `/cover` | POST | `songId`、`preferences`、`visualAccent`；回傳 JPEG data URI 與實際 Prompt |
 
-儲存後部署 Worker。
+POST 請求需 JSON 與符合設定的 Origin。一般使用者請在網站操作，不需要手動呼叫 API。
 
-## 4. 驗證設定
+驗收：隨機抽歌多次不發出推薦 API；指定歌曲生成 AI 樂評；心情推薦能呈現結果；封面生成成功後顯示圖片並可下載；限流時能顯示倒數或資料庫備援文字。可在瀏覽器開發者工具的 Network 檢查請求。
 
-在瀏覽器開啟你的 `https://...workers.dev/status`，預期：
+## 5. 故障排除
 
-```json
-{
-  "ok": true,
-  "configured": true,
-  "provider": "groq",
-  "model": "openai/gpt-oss-20b"
-}
-```
+| 問題 | 處理 |
+| --- | --- |
+| 網站 404 | 檢查 Pages 分支與 `/docs` 路徑 |
+| 無法連線／403 | 核對 `API_BASE`、`ALLOWED_ORIGIN` 與兩邊的部署狀態 |
+| `llmReady: false` | 核對 `AI_PROVIDER` 與正式環境的 Secret |
+| `imageReady: false` | 確認 Workers AI 和 COVER_LIMITER 綁定 |
+| 429 | 確認是 Worker 限流或供應商速率／配額，等待適當重置；前端倒數為保守或供應商提供的等待時間 |
+| 502 | 檢查 Worker Logs、模型支援、金鑰及 Workers AI 用量 |
+| 新舊功能不同步 | 確認 GitHub Pages、Worker 都完成同一批更新，再強制重新整理 |
 
-這只代表後端讀得到 Secret，不代表免費額度足夠。
-
-## 5. 測試歌荒救星
-
-`docs/config.js` 原本的 Worker URL **不用變**，因為仍使用同一個 Cloudflare Worker。
-
-打開 GitHub Pages，輸入「陰雨夜晚，想聽憂傷的 Dream Pop」並按推薦。
-
-如果正常，就會依序使用 Groq 模型完成情緒分析、資料庫選歌、繁體中文短評和 Stable Diffusion 英文 Prompt。
-
-若顯示 429，請先查看 Groq 的 Limits/Usage；免費額度也會有上限。
-
-## 6. 將來想切回 OpenAI
-
-只要設定：
-
-- `AI_PROVIDER` 改為 `openai`
-- `OPENAI_API_KEY` 設為有效 OpenAI Secret
-- （選用）`OPENAI_MODEL=gpt-4.1-mini`
-
-不需要重新修改前端程式碼；這份 V2.2 沒有在 Groq 額度用完時自動切回付費 OpenAI。
-
-## 安全與限制
-
-- Groq 免費層有速率與總用量限制，不是永久無限額度。
-- API Key 永遠只能放 Cloudflare Secret。
-- Origin 檢查與 IP 限流只能降低風險，不能杜絕 API 濫用。
-- 本版只產生 Stable Diffusion Prompt，**尚未真的生成圖片**。
-- 我們已用模擬回應測試 2 次 LLM 的流程，但沒有你的 Groq API Key，未驗證真實供應商連線。
-
-參考：https://console.groq.com/docs/responses-api 、 https://console.groq.com/docs/structured-outputs
+配額與模型支援可能變動，請查詢 [Groq Limits](https://console.groq.com/settings/limits)、[Groq Rate Limits](https://console.groq.com/docs/rate-limits) 與 [Workers AI Pricing](https://developers.cloudflare.com/workers-ai/platform/pricing/)。公開 API 的 CORS 與 IP 限流不能完全防止濫用；請監控用量，必要時停用服務或撤銷金鑰。

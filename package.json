@@ -1,6 +1,6 @@
 {
-  "name": "indie-music-savior-github-full",
-  "version": "2.1.0",
+  "name": "indie-music-savior",
+  "version": "3.1.0",
   "type": "module",
   "private": true,
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "devDependencies": {
     "wrangler": "^4.60.0"
+  },
+  "description": "Mood-based indie music discovery with AI micro-reviews and original album artwork.",
+  "engines": {
+    "node": ">=22"
   }
 }
