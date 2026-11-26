@@ -1,76 +1,114 @@
 import { SONGS } from '../shared/catalog.mjs';
-import { analyzeEmotion, writeReviewAndPrompt, AIError, providerConfig } from '../shared/openai.mjs';
-import { cleanPreferences, selectSong } from '../shared/recommender.mjs';
+import { writeReviewAndPrompt, AIError, providerConfig } from '../shared/openai.mjs';
+import { cleanPreferences, localPreferences, selectSong } from '../shared/recommender.mjs';
+import { fallbackWriting, prepareImagePrompt } from '../shared/visual.mjs';
 
 function reply(payload, status=200, headers={}) {
-  return Response.json(payload, { status, headers: {
-    'Cache-Control':'no-store', 'X-Content-Type-Options':'nosniff', ...headers
-  }});
+  return Response.json(payload, {status, headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...headers}});
 }
-function corsFor(origin, env) {
-  return origin && env.ALLOWED_ORIGIN && origin === env.ALLOWED_ORIGIN
-    ? {'Access-Control-Allow-Origin': origin, 'Vary':'Origin',
+function corsFor(origin,env){
+  return origin && env.ALLOWED_ORIGIN && origin===env.ALLOWED_ORIGIN
+    ? {'Access-Control-Allow-Origin':origin,'Vary':'Origin',
        'Access-Control-Allow-Methods':'GET, POST, OPTIONS',
        'Access-Control-Allow-Headers':'Content-Type'} : {};
 }
+function originAllowed(origin,env){return !!(origin && env.ALLOWED_ORIGIN && origin===env.ALLOWED_ORIGIN);}
+async function parseBody(request,headers){
+  if(!request.headers.get('content-type')?.startsWith('application/json'))
+    return {error:reply({error:'請以 JSON 格式傳入資料。'},415,headers)};
+  if(Number(request.headers.get('content-length')||0)>4096)
+    return {error:reply({error:'請求過長。'},413,headers)};
+  const raw=await request.text();
+  if(raw.length>4096)return {error:reply({error:'請求過長。'},413,headers)};
+  try{return {body:JSON.parse(raw)};}catch{return {error:reply({error:'JSON 格式錯誤。'},400,headers)};}
+}
+async function limitOrError(binding,key,headers){
+  if(!binding)return reply({error:'缺少 Rate Limiter 綁定，請檢查 wrangler.jsonc。'},503,headers);
+  try {
+    const {success}=await binding.limit({key});
+    if(!success)return reply({error:'操作太頻繁，請稍後再試。'},429,headers);
+    return null;
+  } catch {return reply({error:'請求保護服務暫時無法使用。'},503,headers);}
+}
 export default {
-  async fetch(request, env) {
-    const path = new URL(request.url).pathname;
-    const origin = request.headers.get('origin');
-    const headers = corsFor(origin, env);
-    if (request.method === 'OPTIONS') {
-      if (!origin || origin !== env.ALLOWED_ORIGIN) return reply({error:'Origin 不允許。'},403);
+  async fetch(request,env){
+    const path=new URL(request.url).pathname;
+    const origin=request.headers.get('origin');
+    const headers=corsFor(origin,env);
+    if(request.method==='OPTIONS'){
+      if(!originAllowed(origin,env))return reply({error:'Origin 不允許。'},403);
       return new Response(null,{status:204,headers:{...headers,'Access-Control-Max-Age':'600'}});
     }
-    if (path === '/status' && request.method === 'GET') {
+    if(path==='/status' && request.method==='GET'){
       try {
         const config=providerConfig(env);
-        return reply({ok:true,configured:!!(config.key && env.ALLOWED_ORIGIN),provider:config.provider,model:config.model},200,headers);
-      } catch(e) {return reply({ok:false,error:e.message},503,headers);}
+        return reply({ok:true,version:'3.0',provider:config.provider,model:config.model,
+          configured:!!(config.key && env.ALLOWED_ORIGIN),
+          recommendReady:!!(env.ALLOWED_ORIGIN && env.REQUEST_LIMITER),
+          llmReady:!!(config.key && env.ALLOWED_ORIGIN),
+          imageReady:!!(env.AI && env.COVER_LIMITER && env.ALLOWED_ORIGIN),
+          imageModel:'@cf/black-forest-labs/flux-1-schnell'},200,headers);
+      }catch(e){return reply({ok:false,error:e.message},503,headers);}
     }
-    if (path !== '/recommend') return reply({error:'找不到 API 路徑。'},404,headers);
-    if (request.method !== 'POST') return reply({error:'請使用 POST。'},405,headers);
-    if (!origin || !env.ALLOWED_ORIGIN || origin !== env.ALLOWED_ORIGIN)
-      return reply({error:'禁止來自其他網站的請求。'},403,headers);
-    let config;
-    try { config=providerConfig(env); }
-    catch(e) { return reply({error:e.message},503,headers); }
-    if (!config.key) return reply({error:`尚未設定 ${config.keyName}。`},503,headers);
-    if (!env.REQUEST_LIMITER) return reply({error:'未啟用伺服器端請求限制，暫停 AI 服務。'},503,headers);
-    if (!request.headers.get('content-type')?.startsWith('application/json'))
-      return reply({error:'請以 JSON 格式傳入資料。'},415,headers);
-    if (Number(request.headers.get('content-length')||0) > 4096)
-      return reply({error:'請求過長。'},413,headers);
-    const raw=await request.text();
-    if (raw.length>4096) return reply({error:'請求過長。'},413,headers);
-    let body;
-    try {body=JSON.parse(raw);} catch {return reply({error:'JSON 格式錯誤。'},400,headers);}
-    const mode = body?.mode === 'random' ? 'random' : 'mood';
-    const mood = typeof body?.mood === 'string' ? body.mood.trim() : '';
-    if (mood.length>220 || (mode==='mood' && !mood)) return reply({error:'心情描述限 1～220 字。'},400,headers);
-    const previousId = typeof body?.previousId==='string' ? body.previousId.slice(0,25) : null;
-    // 依 IP 進行簡易限流；此機制為近似值、非全球嚴格上限。
+    if(!['/recommend','/cover'].includes(path))return reply({error:'找不到 API 路徑。'},404,headers);
+    if(request.method!=='POST')return reply({error:'請使用 POST。'},405,headers);
+    if(!originAllowed(origin,env))return reply({error:'禁止來自其他網站的請求。'},403,headers);
+    const parsed=await parseBody(request,headers);
+    if(parsed.error)return parsed.error;
+    const body=parsed.body;
+    if(!body || typeof body!=='object'||Array.isArray(body))return reply({error:'資料格式錯誤。'},400,headers);
     const ip=request.headers.get('cf-connecting-ip')||'unknown';
-    try {
-      const {success}=await env.REQUEST_LIMITER.limit({key:`indie:${ip}`});
-      if (!success) return reply({error:'AI 使用次數過於頻繁，請稍後再試。'},429,headers);
-    }catch{return reply({error:'請求保護服務暫時無法使用。'},503,headers);}
-    try {
-      const analysis = mode==='mood' ? await analyzeEmotion(mood,env) : null;
-      const prefs=cleanPreferences(analysis||{});
+
+    if(path==='/recommend'){
+      const mode=body.mode==='random'?'random':'mood';
+      const mood=typeof body.mood==='string'?body.mood.trim():'';
+      if(mood.length>220||(mode==='mood'&&!mood))return reply({error:'心情描述限 1～220 字。'},400,headers);
+      const wantLLM=body.useLLM===true;
+      const previousId=typeof body.previousId==='string'?body.previousId.slice(0,25):null;
+      const limited=await limitOrError(env.REQUEST_LIMITER,`recommend:${ip}`,headers);
+      if(limited)return limited;
+      const prefs=cleanPreferences(mode==='mood'?localPreferences(mood):{});
       const picked=selectSong(SONGS,prefs,previousId,mode);
-      const generated=await writeReviewAndPrompt({
-        text:mode==='random'?'隨機抽歌，依選中的歌曲標籤寫作。':mood,
-        song:picked.song,preferences:prefs
-      },env);
-      if (![generated.review,generated.reason,generated.imagePrompt].every(x=>typeof x==='string'&&x.trim()))
-        throw new AIError('AI 回應不完整。');
-      return reply({mode:'ai',song:picked.song,analysis:{...prefs,explanation:analysis?.explanation||'隨機抽歌不額外分析心情。'},
-        matchScore:picked.matchScore,fallback:!!picked.fallback,
-        review:generated.review,reason:generated.reason,imagePrompt:generated.imagePrompt},200,headers);
-    }catch(e){
-      if(e instanceof AIError)return reply({error:e.message},e.status,headers);
-      return reply({error:'AI 暫時無法完成推薦，請稍後再試。'},500,headers);
+      let writing=fallbackWriting(picked.song,prefs);
+      let textSource='rules';
+      let warning='';
+      if(wantLLM){
+        try {
+          const provider=providerConfig(env);
+          if(!provider.key) throw new AIError(`尚未設定 ${provider.keyName}。`,503);
+          const generated=await writeReviewAndPrompt({text:mood||'隨機抽歌，請根據選中歌曲的已知標籤寫作。',song:picked.song,preferences:prefs},env);
+          if (![generated.review,generated.reason,generated.imagePrompt].every(x=>typeof x==='string'&&x.trim()))
+            throw new AIError('LLM 回應不完整。');
+          writing={review:generated.review,reason:generated.reason,imagePrompt:generated.imagePrompt};
+          textSource='llm';
+        }catch(e){
+          if(e instanceof AIError){textSource='fallback';warning=`已切換成規則式文字：${e.message}`;}
+          else{textSource='fallback';warning='LLM 暫時無法使用，已改用規則式文字。';}
+        }
+      }
+      return reply({mode:'recommend',song:picked.song,analysis:{...prefs,explanation:'使用本地關鍵字與歌曲標籤比對（非 LLM 情緒分析）。'},
+        matchScore:picked.matchScore,fallback:!!picked.fallback,review:writing.review,reason:writing.reason,
+        imagePrompt:writing.imagePrompt,textSource,warning},200,headers);
+    }
+    // /cover: 完全不呼叫 Groq。只有明確點選生成按鈕時才消耗 Workers AI 額度。
+    if(!env.AI || !env.COVER_LIMITER)return reply({error:'尚未設定 Workers AI 或 COVER_LIMITER 綁定。'},503,headers);
+    const id=typeof body.songId==='string'?body.songId:'';
+    const song=SONGS.find(item=>item.id===id);
+    if(!song)return reply({error:'歌曲 ID 不在資料庫內。'},400,headers);
+    const supplied=typeof body.imagePrompt==='string'?body.imagePrompt:'';
+    if(supplied.length>900)return reply({error:'圖片 Prompt 太長。'},400,headers);
+    const limited=await limitOrError(env.COVER_LIMITER,`cover:${ip}`,headers);
+    if(limited)return limited;
+    const prompt=prepareImagePrompt(song,supplied);
+    try {
+      const result=await env.AI.run('@cf/black-forest-labs/flux-1-schnell',{prompt,steps:4});
+      if(!result || typeof result.image!=='string'||!result.image.length)
+        return reply({error:'圖片模型未回傳影像資料，請檢查 Workers AI Logs。'},502,headers);
+      return reply({ok:true,mime:'image/jpeg',dataURI:`data:image/jpeg;base64,${result.image}`,
+        model:'@cf/black-forest-labs/flux-1-schnell',source:'workers-ai'},200,headers);
+    } catch(e) {
+      // 不向前端暴露完整供應商錯誤回應或內部細節。
+      return reply({error:'Cloudflare 圖片生成暫時失敗；可能是免費配額、模型限制或設定問題，請查看 Workers AI 用量與 Worker Logs。'},502,headers);
     }
   }
 };
