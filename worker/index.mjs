@@ -42,7 +42,7 @@ export default {
     if(path==='/status' && request.method==='GET'){
       try {
         const config=providerConfig(env);
-        return reply({ok:true,version:'3.1',coverDesign:'song-specific',provider:config.provider,model:config.model,
+        return reply({ok:true,version:'3.1',coverDesign:'song-specific',coverStyle:'soft-analog',provider:config.provider,model:config.model,
           configured:!!(config.key && env.ALLOWED_ORIGIN),
           recommendReady:!!(env.ALLOWED_ORIGIN && env.REQUEST_LIMITER),
           llmReady:!!(config.key && env.ALLOWED_ORIGIN),
