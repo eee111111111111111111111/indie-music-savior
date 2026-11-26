@@ -1,35 +1,30 @@
-// 封面設計以歌曲專屬的視覺母題為主。資料庫內容是創意詮釋，不代表已分析音訊或歌詞。
+// 以歌曲母題為核心：低飽和、自然材質、獨立唱片印刷質感。
 const list=(value,n=3)=>Array.isArray(value)?value.filter(v=>typeof v==='string').slice(0,n).join(', '):'';
-const safeAccents=['soft light','diffused light','backlight','warm light','cool light','film grain','paper texture','halftone','watercolor wash','subtle grain','soft shadows','long exposure','negative space','muted contrast','high contrast'];
-// 從 LLM 視覺提案提取可控的光線/質感修飾，不讓它覆蓋歌曲母題、配色與構圖。
+const safeAccents=['diffused light','soft light','film grain','paper texture','subtle grain','soft shadows','negative space'];
 export function visualAccent(value=''){
   const text=typeof value==='string'?value.toLowerCase():'';
   return safeAccents.filter(v=>text.includes(v)).slice(0,2).join(', ');
 }
 export function coverPrompt(song,prefs={},accent=''){
   const art=song.cover_art||{};
-  const motif=art.motif||`an evocative original scene inspired by the title ${song.title}`;
-  const style=art.style||'independent editorial illustration';
-  const palette=art.palette||list(song.color_palette)||'muted contrasting colors';
-  const mood=list(song.mood)||'reflective';
-  const genre=list(song.genre,2)||'indie';
-  const energy=song.energy==='high'?'dynamic framing, bold visual rhythm':song.energy==='low'?'quiet spacious framing, restrained movement':'balanced framing, subtle visual movement';
+  const motif=art.motif||`a quiet visual metaphor inspired by ${song.title}`;
+  const style=art.style||'understated analog photography on matte paper';
+  const palette=art.palette||'dusty earth tones, washed blue, warm off-white';
+  const energy=song.energy==='high'?'convey energy through asymmetrical framing and rhythm, not vivid color':song.energy==='low'?'quiet negative space and stillness':'restrained movement and balanced framing';
   const listener=[list(prefs.moods,2),list(prefs.scenes,2)].filter(Boolean).join('; ');
   const finish=visualAccent(accent);
   return [
-    `Original square 1:1 album-cover artwork for the song ${JSON.stringify(song.title)} by ${song.artist}; title and artist are context only, never printed.`,
-    `MAIN SUBJECT: ${motif}.`,
-    `ART DIRECTION: ${style}; color palette: ${palette}.`,
-    `Song mood: ${mood}; genre: ${genre}; ${energy}.`,
-    list(song.instruments,3)?`Translate ${list(song.instruments,3)} into visual rhythm and texture, not literal instruments.`:'',
-    listener?`Secondary listener atmosphere: ${listener}; modify lighting or atmosphere only, keep the main subject and palette.`:'',
-    finish?`Optional finishing touches, if consistent with the art direction: ${finish}.`:'',
-    'One cohesive full-bleed artwork, clear focal point, no vinyl disc, no sleeve mockup, no text, no lettering, no logos, no recognizable musicians, no replica of existing album art.'
+    `Square original independent music album cover, full-bleed artwork for ${JSON.stringify(song.title)} by ${song.artist} (context only, not printed).`,
+    `Main visual motif: ${motif}.`,
+    `Medium: ${style}.`,
+    `Palette: ${palette}, all low-chroma and gently faded, one muted accent occupying a small area. Soft tonal transitions, gentle contrast, softened highlights, open shadows.`,
+    `Song atmosphere: ${list(song.mood)||'reflective'}; ${list(song.genre,2)||'indie'}; ${energy}.`,
+    listener?`Listener atmosphere: ${listener}; subtly adjust light or atmosphere without replacing the motif or palette.`:'',
+    finish?`Subtle finish: ${finish}.`:'',
+    'Art direction: human-made independent record sleeve aesthetic, unpretentious, subtle analog imperfections, natural materials, simple composition and a clear focal point. Avoid glossy CGI, hyperreal digital rendering, fantasy effects, neon, fluorescent hues, oversaturated colors, HDR, dramatic lighting, harsh contrast, excessive detail, text, logos, artist likeness, existing album cover replicas, vinyl discs and product mockups.'
   ].filter(Boolean).join(' ');
 }
-export function prepareImagePrompt(song,prefs={},accent=''){
-  return coverPrompt(song,prefs,accent);
-}
+export function prepareImagePrompt(song,prefs={},accent=''){return coverPrompt(song,prefs,accent);}
 export function fallbackWriting(song,prefs){
   const genres=song.genre.slice(0,2).join('、')||'獨立音樂';
   const moods=song.mood.slice(0,2).join('、')||'細膩';
